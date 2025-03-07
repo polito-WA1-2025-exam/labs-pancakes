@@ -24,8 +24,26 @@ function GameManager(difficulty, catalog){
 
 //Guess()
 
+//Container object
 function Catalog(){
-    this.items = []; //harcoded bence
+    this.items = [];
+
+    //I am defining these for the sake of 2. question in Lab01
+    this.addItem = function (item){
+        //addItem
+    }
+
+    this.removeItem = function (itemId){
+        //removeItem
+    }
+
+    this.getItem = function (itemId){
+        //getItem
+    }
+
+    this.getAllItems = function (){
+        //getAllItems
+    }
 }
 
 function User(){
